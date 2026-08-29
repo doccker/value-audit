@@ -1,0 +1,26 @@
+{
+  "name": "pi-value-audit",
+  "version": "0.5.0",
+  "description": "Pi extension: audit your project's business value before you burn more tokens. 价值审计——在继续烧 token 之前，先回答“这个项目凭什么收钱”。",
+  "keywords": [
+    "pi-package",
+    "value-audit",
+    "pmf",
+    "business-audit"
+  ],
+  "author": "wwj",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/doccker/value-audit.git"
+  },
+  "peerDependencies": {
+    "@earendil-works/pi-coding-agent": "*",
+    "typebox": "*"
+  },
+  "pi": {
+    "extensions": [
+      "./extensions/value-audit/index.ts"
+    ]
+  }
+}
